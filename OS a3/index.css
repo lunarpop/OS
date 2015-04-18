@@ -1,0 +1,56 @@
+p, h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+}
+
+#input{
+	width: 400px;
+	margin: 0 auto;
+}
+#input input{
+	padding: 0;
+	margin: 0;
+	width: 150px;
+	height: 46px;
+	font-size: 24pt;
+}
+#input button{
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: -6px;
+	
+	border: 0;
+	
+	margin: 0;
+	padding: 0;	
+	background-color: #19B0CE;
+}
+#input button:hover{
+	background-color: #6BE7FF;
+}
+#quantum{
+	padding-bottom: 10px;
+}
+#output article{
+	height: 120px;
+	border-top: 2px solid black;
+}
+
+#wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	border: 2px solid black;
+	padding: 10px;
+}
+
+#cpu1, #cpu2, #cpu3, #cpu4, #cpu5{
+	border: 1px solid black;
+}
+
+.info{
+	position: relative;
+	left: 550px;
+	top:-50px;
+	width: 300px;
+}

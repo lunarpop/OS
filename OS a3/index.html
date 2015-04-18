@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lab 3</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script src="index.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<h2>Number of processes?</h2>
+			<section id="input">
+				 <input type="text" id="processes"> <button type="button" onclick="run()">Run</button>
+			</section>
+			<section id="output">
+				<h2 id="quantum">
+					Quantum:
+				</h2>
+				<article>
+					<h2>First Come First Serve</h2>
+					<p id="percent1">CPU Usage: X</p>
+					<canvas width="500" height="40" id="cpu1"></canvas>
+					<div class="info">
+						<p id="avgTime1">Average Waiting Time: </p>
+						<p id="meanTurn1">Mean Turnaround: </p>
+						<p id="meanNorm1">Mean Normalized: </p>
+					</div>
+				</article>
+				<article>
+					<h2>Shortest Process Next</h2>
+					<p id="percent2">CPU Usage: X</p>
+					<canvas width="500" height="40" id="cpu2"></canvas>
+					<div class="info">
+						<p id="avgTime2">Average Waiting Time: </p>
+						<p id="meanTurn2">Mean Turnaround: </p>
+						<p id="meanNorm2">Mean Normalized: </p>
+					</div>
+				</article>
+				<article>
+					<h2>Shortest Remaining Time</h2>
+					<p id="percent3">CPU Usage: X</p>
+					<canvas width="500" height="40" id="cpu3"></canvas>
+					<div class="info">
+						<p id="avgTime3">Average Waiting Time: </p>
+						<p id="meanTurn3">Mean Turnaround: </p>
+						<p id="meanNorm3">Mean Normalized: </p>
+					</div>
+				</article>
+				<article>
+					<h2>Round Robin</h2>
+					<p id="percent4">CPU Usage: X</p>
+					<canvas width="500" height="40" id="cpu4"></canvas>
+					<div class="info">
+						<p id="avgTime4">Average Waiting Time: </p>
+						<p id="meanTurn4">Mean Turnaround: </p>
+						<p id="meanNorm4">Mean Normalized: </p>
+					</div>
+				</article>
+				<article>
+					<h2>Feedback Algorithm</h2>
+					<p id="percent5">CPU Usage: X</p>
+					<canvas width="500" height="40" id="cpu5"></canvas>
+					<div class="info">
+						<p id="avgTime5">Average Waiting Time: </p>
+						<p id="meanTurn5">Mean Turnaround: </p>
+						<p id="meanNorm5">Mean Normalized: </p>
+					</div>
+				</article>
+			</section>
+		</div>
+	</body>
+</html>
